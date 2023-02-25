@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\ex\\reto-1\\reto-1.csproj",
+      "projectUniqueName": "C:\\GitHub\\RetosCodLimpio\\reto-1\\reto-1.csproj",
       "projectName": "reto-1",
-      "projectPath": "C:\\GitHub\\ex\\reto-1\\reto-1.csproj",
+      "projectPath": "C:\\GitHub\\RetosCodLimpio\\reto-1\\reto-1.csproj",
       "packagesPath": "C:\\Users\\yostin\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\ex\\reto-1\\obj\\",
+      "outputPath": "C:\\GitHub\\RetosCodLimpio\\reto-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
