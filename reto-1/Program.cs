@@ -21,7 +21,7 @@ namespace Entrada{
         }
         else{
             Taquilla guardia = new Taquilla();
-            Console.WriteLine(guardia.validar_entrada(id_invitado,file_path));
+            Console.WriteLine(guardia.Iniciar_entrada(id_invitado,file_path));
         }
 
     }

@@ -8,7 +8,9 @@ namespace Entrada{
 	public string[] gestionar_txt_csv(string path,string id)
 	{
         String line;
+        try{
 
+        
         //Pass the file path and file name to the StreamReader constructor
         StreamReader sr = new StreamReader(path);
         //Read the first line of text
@@ -25,9 +27,9 @@ namespace Entrada{
             {
                 subs = line.Split();
             }
-            else{
-                Console.WriteLine("ese archivo no existe");
-            }
+            // else{
+            //     Console.WriteLine("ese archivo no existe");
+            // }
             //Si se encuentra a laguien con el id 
             if (subs[1] == id){
                 return subs;
@@ -46,6 +48,16 @@ namespace Entrada{
         
         //close the file
         sr.Close();
+    }catch(Exception e){
+        Console.WriteLine(e.Message);
+        string[] subs = new string[4];
+        subs[0] = null;
+        subs[1] = null;
+        subs[2] = null;
+        subs[3] = null;
+        return subs;
+
+    }
     }
     }
 
