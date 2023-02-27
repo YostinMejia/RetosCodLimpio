@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+namespace Entrada{
+
+
  public class Program
 {
         static void Main(string[] args)
@@ -17,10 +21,9 @@ using System.Threading.Tasks;
         }
         else{
             Taquilla guardia = new Taquilla();
-            Console.WriteLine(guardia.verificar_txt_csv(file_path, id_invitado));
+            Console.WriteLine(guardia.validar_entrada(id_invitado,file_path));
         }
 
-        
-        
     }
+}
 }
