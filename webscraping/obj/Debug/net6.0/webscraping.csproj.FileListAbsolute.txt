@@ -1,0 +1,17 @@
+C:\GitHub\RetosCodLimpio\webscraping\bin\Debug\net6.0\webscraping.exe
+C:\GitHub\RetosCodLimpio\webscraping\bin\Debug\net6.0\webscraping.deps.json
+C:\GitHub\RetosCodLimpio\webscraping\bin\Debug\net6.0\webscraping.runtimeconfig.json
+C:\GitHub\RetosCodLimpio\webscraping\bin\Debug\net6.0\webscraping.dll
+C:\GitHub\RetosCodLimpio\webscraping\bin\Debug\net6.0\webscraping.pdb
+C:\GitHub\RetosCodLimpio\webscraping\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.csproj.AssemblyReference.cache
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.AssemblyInfoInputs.cache
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.AssemblyInfo.cs
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.csproj.CoreCompileInputs.cache
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.csproj.CopyComplete
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.dll
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\refint\webscraping.dll
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.pdb
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\webscraping.genruntimeconfig.cache
+C:\GitHub\RetosCodLimpio\webscraping\obj\Debug\net6.0\ref\webscraping.dll

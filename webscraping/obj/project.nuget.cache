@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "v+/t3rJGJXbKQqwO+l3DbB/MNJJ5V9hr8VSzMoD8EqEnQHopSP3EnoagHWvTvgR2prHydshTHxuOsTbbuXB9Eg==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\RetosCodLimpio\\webscraping\\webscraping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yostin\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}

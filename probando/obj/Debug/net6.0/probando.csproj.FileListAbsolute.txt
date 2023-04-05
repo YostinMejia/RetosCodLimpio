@@ -1,0 +1,15 @@
+C:\GitHub\RetosCodLimpio\probando\bin\Debug\net6.0\probando.exe
+C:\GitHub\RetosCodLimpio\probando\bin\Debug\net6.0\probando.deps.json
+C:\GitHub\RetosCodLimpio\probando\bin\Debug\net6.0\probando.runtimeconfig.json
+C:\GitHub\RetosCodLimpio\probando\bin\Debug\net6.0\probando.dll
+C:\GitHub\RetosCodLimpio\probando\bin\Debug\net6.0\probando.pdb
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\probando.csproj.AssemblyReference.cache
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\probando.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\probando.AssemblyInfoInputs.cache
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\probando.AssemblyInfo.cs
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\probando.csproj.CoreCompileInputs.cache
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\probando.dll
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\refint\probando.dll
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\probando.pdb
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\probando.genruntimeconfig.cache
+C:\GitHub\RetosCodLimpio\probando\obj\Debug\net6.0\ref\probando.dll

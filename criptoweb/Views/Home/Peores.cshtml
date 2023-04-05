@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Peores Criptomonedas";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<div class="align-content-center">
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Cambio</th>
+                <th>Porcentage de cambio</th>
+                <th>Capital total</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+
+            @foreach (List<string> crypto in ViewData["cryptos"] as List<List<string>>)
+            {
+                <tr>
+                    <td class="imagen ">
+                        <img src="@crypto[5]" alt="@crypto[0]">
+                    </td>
+
+                    <td class="name ">
+                        <label>@crypto[0]</label>
+                    </td>
+
+                    <td class="precio">
+                        <label>@crypto[1]</label>
+                    </td>
+
+                    <td class="cambio">
+
+                        <label>@crypto[2]</label>
+
+                    </td>
+
+
+                    <td class="cambio_porcentage">
+                        <label>@crypto[3]</label>
+                    </td>
+
+                    <td class="capital_total">
+                        <label>@crypto[4]</label>
+                    </td>
+
+                </tr>
+
+            }
+        </tbody>
+    </table>
+
+
+</div>

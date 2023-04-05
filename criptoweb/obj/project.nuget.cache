@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MM1BLib10iFdQKmk70rMNI06swCJaJVzLBV2Kv/1ZEG8Rzjqz/JngCZQkbFMHBvGOk3HWAWraJVp3r4vkD3BXA==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\RetosCodLimpio\\criptoweb\\criptoweb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yostin\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}
