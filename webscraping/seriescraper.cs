@@ -36,7 +36,7 @@ namespace webscraping
         private static List<List<string>> ComentariosCriticos(string url)
         {
 
-            if (Char.IsDigit(url, url.Length - 1) && url.Substring(url.Length - 4).Contains("/s"))
+            if (! (Char.IsDigit(url, url.Length - 1) && url.Substring(url.Length - 4).Contains("/s")) )
             {
                 Console.WriteLine(  "Los comentarios están en las paginas de las temporadas, no en la principal");
                 return new List<List<string>>();
@@ -50,7 +50,7 @@ namespace webscraping
         private static List<List<string>> ComentariosUsuarios(string url)
         {
             
-            if(Char.IsDigit(url, url.Length - 1) && url.Substring(url.Length - 4).Contains("/s"))
+            if( ! (Char.IsDigit(url, url.Length - 1) && url.Substring(url.Length - 4).Contains("/s")))
             {
                 Console.WriteLine("Los comentarios están en las paginas de las temporadas, no en la principal");
 
@@ -71,14 +71,13 @@ namespace webscraping
         private static List<List<string>> Calificacion(string url, string html)
         {
 
-            if (Char.IsDigit( url, url.Length - 1) && url.Substring(url.Length-4).Contains("/s"))
+            if (! (Char.IsDigit( url, url.Length - 1) && url.Substring(url.Length-4).Contains("/s")))
             {
                 Console.WriteLine("los contadores están en las paginas de las temporadas, no en la principal");
 
-                return pelicula.Calificacion(html,false);
             }
 
-            return pelicula.Calificacion(html, false);
+            return pelicula.Calificacion(html,false);
 
         }
 
@@ -88,7 +87,7 @@ namespace webscraping
             if (!Char.IsDigit( url, url.Length - 1))
             {
 
-                return pelicula.DatosPrincipales(html, false, false );
+                return pelicula.DatosPrincipales(html, false );
             }
 
             return pelicula.DatosPrincipales(html, false, true);
