@@ -36,7 +36,7 @@ namespace webscraping
         private static List<List<string>> ComentariosCriticos(string url)
         {
 
-            if (!Char.IsDigit( url, url.Length - 1))
+            if (Char.IsDigit(url, url.Length - 1) && url.Substring(url.Length - 4).Contains("/s"))
             {
                 Console.WriteLine(  "Los comentarios están en las paginas de las temporadas, no en la principal");
                 return new List<List<string>>();
@@ -50,7 +50,7 @@ namespace webscraping
         private static List<List<string>> ComentariosUsuarios(string url)
         {
             
-            if(!Char.IsDigit( url, url.Length - 1))
+            if(Char.IsDigit(url, url.Length - 1) && url.Substring(url.Length - 4).Contains("/s"))
             {
                 Console.WriteLine("Los comentarios están en las paginas de las temporadas, no en la principal");
 
@@ -71,11 +71,11 @@ namespace webscraping
         private static List<List<string>> Calificacion(string url, string html)
         {
 
-            if (!Char.IsDigit( url, url.Length - 1))
+            if (Char.IsDigit( url, url.Length - 1) && url.Substring(url.Length-4).Contains("/s"))
             {
                 Console.WriteLine("los contadores están en las paginas de las temporadas, no en la principal");
 
-                return pelicula.Calificacion(html, false);
+                return pelicula.Calificacion(html,false);
             }
 
             return pelicula.Calificacion(html, false);
@@ -84,11 +84,11 @@ namespace webscraping
 
         private static List<List<string>> DatosPrincipales(string url, string html )
         {
-            //Si su ultimo     
-            if (! Char.IsDigit( url, url.Length - 1))
+            //Si su ultimo caracter es un numero entonces es una temporada
+            if (!Char.IsDigit( url, url.Length - 1))
             {
 
-                return pelicula.DatosPrincipales(html, false, false);
+                return pelicula.DatosPrincipales(html, false, false );
             }
 
             return pelicula.DatosPrincipales(html, false, true);
